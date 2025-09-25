@@ -12,7 +12,7 @@ public class ExampleApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(ExampleApplication.class, args);
     }
- @Autowired
+    @Autowired
     ServiceTool tool;
     @Override
     public void run(String... args) throws Exception {
